@@ -32,7 +32,8 @@ const ContactForm = ({ onSubmit }) => {
   };
 
   const resetForm = () => {
-    this.setState({ name: '', number: '' });
+    setName('');
+    setNumber('');
   };
 
   return (
